@@ -14,9 +14,9 @@ import { join } from "node:path";
 // phone's last requests, and the sign-off — then joined with single spaces
 // so the emitted text stays exactly one line.
 const MESSAGE_PARTS = [
-  "1% battery, so listen fast:",
-  "tell my charger I loved it, delete my weird screenshots,",
-  "and tell everyone I didn't ignore them — I just ran out of time.",
+  "At 1% so listen fast:",
+  "tell my charger I forgive the tangled cord, delete the folder called 'definitely taxes',",
+  "and if this cuts off mid-sen—",
 ] as const;
 
 const MESSAGE = MESSAGE_PARTS.join(" ");
